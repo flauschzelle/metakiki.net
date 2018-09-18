@@ -1,0 +1,15 @@
+---
+title: Page not found, sorry!
+noindex: true
+---
+
+Please click on this <a id="google" href="http://www.google.de/search?q=site:<%= domain %>">ready-made Google query</a> or have a look at the [main page](/).
+
+If you don't find what you are looking for, just [ask me](/about/).
+
+<script type="text/javascript">
+url = /^.*?:\/\/.*?\/(.*)$/.exec(document.URL)[1];
+keywords = url.match(/[a-zA-Z]+/g);
+keywords = keywords.join("+");
+document.getElementById("google").href = "http://www.google.com/search?q=site:<%= domain %>+" + keywords;
+</script>

@@ -1,0 +1,61 @@
+---
+title: Home
+headless: true
+---
+
+#intro
+    img src="/assets/images/avatar.png" alt="a drawing of my face"
+
+    p class="filter"
+        | Hello world! <br>My name is
+        strong< Kirstin Rohwer
+		| , or 
+        strong< Kiki
+        |  for short. <br>
+		| I'm learning computer science and creating 
+        a< href="#game" video&shy;games
+        |  and various  
+        a< href="#art" art
+        |  and craft projects. I&nbsp;also make 
+        a< href="#education" educational materials
+        |  about topics like
+		a< href="#asexuality" asexuality
+		|  and honest, nonexclusive 
+		a< href="#relationships" relationships
+		| . I&nbsp;speak 
+		a< href="#de" German
+		|  and 
+		a< href="#en" English
+		| . 
+
+    p class="filter"
+		| You can look at my 
+		a< href="#fav" favorite
+        |  projects, or
+        a<> href="#" show all
+        |  again.
+
+	p 
+		| In addition to my personal projects, I'm running a  
+		a< href="http://ateliersonnenschein.de" small business
+		|  as a tailor, where I make unique clothes and costumes for LARP.
+
+    p
+        | I'm
+        strong< @flauschzelle 
+        | on 
+        a< href="https://twitter.com/flauschzelle" Twitter
+        | . See the
+        a< href="/about/" about page 
+        | for more contact info.
+
+#search
+    input id="morr-search" placeholder="Type to filter…"
+    a< href="#" id="morr-clear" ✕
+
+- things.group_by{|t| [t[:published].year, t[:updated] ? t[:updated].year : 0].max}.sort_by{|y,t| -y}.each do |year, things|
+    h1= year
+    == box(things)
+
+/h1 Timeless
+/== box(@items.select{|i| i[:title] and not things.include?(i)})

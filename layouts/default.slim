@@ -1,0 +1,112 @@
+doctype html
+html lang=lang_for(@item)
+  head
+    meta charset="utf-8"
+    title
+      - if @item.path != "/" and @item[:title]
+        = @item[:title]
+      - else
+        | Kirstin Rohwer's homepage
+
+    meta name="author" content="Kirstin Rohwer"
+
+    - if @item[:published]
+      meta name="date" content=@item[:published].strftime("%Y-%m-%d")
+
+    meta name="description" content=abstract_for(@item)
+
+    meta name="twitter:card" content="summary_large_image"
+    meta name="twitter:site" content="@flauschzelle"
+    meta name="twitter:title" content=@item[:title]
+    meta name="twitter:description" content=abstract_for(@item)
+    meta name="twitter:creator" content="@flauschzelle"
+    meta name="twitter:image" content=domain[0..-2]+thumbnail_for(@item)
+
+    meta property="og:title" content=@item[:title]
+    meta property="og:type" content="website"
+    meta property="og:url" content=domain[0..-2]+@item.path
+    meta property="og:image" content=domain[0..-2]+thumbnail_for(@item)
+    meta property="og:description" content=abstract_for(@item)
+
+    - if @item[:noindex]
+      meta name="robots" content="noindex"
+
+    meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"
+
+    link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png"
+    link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png"
+    link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png"
+    link rel="manifest" href="/assets/favicons/site.webmanifest"
+    link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5"
+    link rel="shortcut icon" href="/assets/favicons/favicon.ico"
+    meta name="msapplication-TileColor" content="#00aba9"
+    meta name="msapplication-config" content="/assets/favicons/browserconfig.xml"
+    meta name="theme-color" content="#ffffff"
+
+    link rel="stylesheet" href="/assets/style.css"
+
+    - if @item.path == "/"
+      script src="https://code.jquery.com/jquery-3.1.1.min.js"
+      script src="/assets/filter.js"
+
+  body
+
+   #sidebar 
+     #nav
+        - if @item.path != "/"
+		    a href="/"
+        	    img src="/assets/images/kleines_bild_normal.svg" alt="portrait"
+		    <br>
+        ul
+		    li
+			    -if @item.path != "/about/"
+				    a href="/about/" About
+			    -else
+				    a href="/" Home
+            li
+                a href="https://twitter.com/flauschzelle" Twitter
+            li
+                a href="https://ko-fi.com/metakiki" Ko-fi
+
+
+   #content
+      - unless @item[:headless]
+        h1= @item[:title]
+        - if @item[:subtitle]
+            .subtitle= @item[:subtitle]
+        - unless @item[:nometa]
+         .meta
+             - if @item[:published]
+               => @item[:published].strftime("%Y-%m-%d")
+             - else
+               | unpublished 
+             - if @item[:updated]
+               ' (last update: #{@item[:updated].strftime("%Y-%m-%d")})
+             | /
+             a<> href="/about/" Kirstin Rohwer
+             - if not @item[:license]
+               | /
+               a<> href="/about/#license" CC BY-SA 4.0
+             - else
+               | /
+               ==<>@item[:license]
+             - if @item[:tags]
+               | /
+               ==< tags_for(@item)
+
+      - if @item[:url]
+        p
+          | Refer to this URL for more information:
+          a< href=@item[:url] = @item[:url]
+
+      == yield
+
+      - if @item[:tags]
+        hr
+        h2 Comments?
+        p
+          | Tweet to
+          a<> href="https://twitter.com/flauschzelle" @flauschzelle
+          | or e-mail me at <span>m<span title="ihate@spam.com</span>">a</span>il</span>&#64;metakiki<i title="</i>mailto:">.</i>net. Also, if you enjoyed this, you might want to buy me a (metaphorical)
+          a< href="https://ko-fi.com/metakiki" coffee
+          |  to show your support :)

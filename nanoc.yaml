@@ -9,3 +9,18 @@ prune:
 data_sources:
   - type: filesystem
     encoding: utf-8
+
+deploy:
+  default:
+    kind: rsync
+    dst: "metakiki.net:/var/www/virtual/kikidata/html"
+    options: [
+      '--partial',
+      '--progress',
+      '--recursive',
+      '--times',
+      '--verbose',
+      '--compress',
+#      '--chmod=u=rwX,go=rX',
+      '--delete-after'
+    ]

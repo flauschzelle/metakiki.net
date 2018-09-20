@@ -2,7 +2,7 @@
 title: Escape The Time Machine
 subtitle: A live escape room game with virtual elements
 tags: game, pixelart, de, en, fav
-notpublished: 2018-07-13
+published: 2018-07-13
 thumbnail: logo.png
 ---
 

@@ -17,9 +17,9 @@ I also made a flyer (in German) to promote the meeting. If you'd like to help pr
 
 <%= titlepage("amazing-aces-flyer", "Flyer: Amazing Aces") %>
 
-*I habe dieses Logo für den monatlichen Braunschweiger Ace-Stammtisch gestaltet. Das ist eine Veranstaltung, bei der sich Menschen im asexuellen Spektrum treffen können, um sich auszutauschen und eine Community aufzubauen. Die ist gerade deshalb wichtig, weil der Großteil der Gesellschaft noch nichtmal weiß, dass es uns überhaupt gibt...*
+*Ich habe dieses Logo für den monatlichen Braunschweiger Ace-Stammtisch gestaltet. Das ist eine Veranstaltung, bei der sich Menschen im asexuellen Spektrum treffen können, um sich auszutauschen und eine Community aufzubauen. Die ist gerade deshalb wichtig, weil der Großteil der Gesellschaft noch nichtmal weiß, dass es uns überhaupt gibt...*
 
-*I habe mich für Spielkarten als Motiv entschieden, weil sie ein übliches Symbol der asexuellen Community sind. Der Ursprung dieses Symbols ist ganz einfach - "ace", also das englische Wort für Ass, klingt sehr ähnlich wie eine Kurzform von "asexual", wenn man es englisch ausspricht. Manchmal (aber nicht immer) wird das Pik-Ass speziell von aromantischen Asexuellen verwendet und das Herz-Ass von alloromantischen Asexuellen.*
+*Ich habe mich für Spielkarten als Motiv entschieden, weil sie ein übliches Symbol der asexuellen Community sind. Der Ursprung dieses Symbols ist ganz einfach - "ace", also das englische Wort für Ass, klingt sehr ähnlich wie eine Kurzform von "asexual", wenn man es englisch ausspricht. Manchmal (aber nicht immer) wird das Pik-Ass speziell von aromantischen Asexuellen verwendet und das Herz-Ass von alloromantischen Asexuellen.*
 
 *Außerdem habe ich auch einen Flyer dazu gestaltet, um den Stammtisch bekannt zu machen. Falls ihr dabei mithelfen möchtet, indem ihr selbst solche Flyer ausdruckt, könnt ihr hier die Vorlage runterladen.*
 

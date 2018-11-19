@@ -31,10 +31,20 @@ compile "/**/*.xml" do
     write item.identifier.without_ext + ".html"
 end
 
-#this creates thumbnails from all images (except those in the assets dir):
-compile "/**/*.{png,jpg,gif,svg}", :rep => :thumbnail do
+#this creates thumbnails from svg images (except those in the assets dir):
+compile "/**/*.svg", :rep => :thumbnail do
+    filter :thumbnailizesvg, :width => 600
+	if item.identifier =~ '/assets/**/*.svg'
+		write nil
+	else
+    	write item.identifier + "-thumbnail.png"
+	end
+end
+
+#this creates thumbnails from all other images (except those in the assets dir):
+compile "/**/*.{png,jpg,gif}", :rep => :thumbnail do
     filter :thumbnailize, :width => 600
-	if item.identifier =~ '/assets/**/*.{png,jpg,gif,svg}'
+	if item.identifier =~ '/assets/**/*.{png,jpg,gif}'
 		write nil
 	else
     	write item.identifier + "-thumbnail.png"
@@ -72,7 +82,7 @@ end
 #this creates thumbnail png images for the pdf title pages:
 compile "/**/*.pdf", :rep => :thumbnail do
     filter :titlepageize
-    filter :thumbnailize, :width => 600
+    filter :thumbnailizesvg, :width => 600
     write item.identifier + "-titlepage.svg-thumbnail.png"
 end
 

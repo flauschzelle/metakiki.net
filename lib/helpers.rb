@@ -85,7 +85,7 @@ def with_tag tag
 end
 
 def domain
-    "https://metakiki.net/"
+    "http://metakiki.net/"
 end
 
 def box(items)

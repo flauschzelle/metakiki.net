@@ -74,7 +74,7 @@ def thumbnail_for item
     if thumbnail && thumbnail.reps[:thumbnail]
         thumbnail.reps[:thumbnail].path
     else
-        ""
+        "/assets/images/avatar.png-thumbnail.png"
     end
 end
 

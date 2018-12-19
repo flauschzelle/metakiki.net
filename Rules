@@ -31,6 +31,12 @@ compile "/**/*.xml" do
     write item.identifier.without_ext + ".html"
 end
 
+#this creates a thumbnail from the default thumbnail image ( in the assets dir):
+compile "/assets/images/avatar.png", :rep => :thumbnail do
+    filter :thumbnailize, :width => 600
+    write item.identifier + "-thumbnail.png"
+end
+
 #this creates thumbnails from svg images (except those in the assets dir):
 compile "/**/*.svg", :rep => :thumbnail do
     filter :thumbnailizesvg, :width => 600

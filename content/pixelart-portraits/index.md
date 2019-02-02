@@ -17,8 +17,8 @@ At last, I tried a different color palette – I had recently seen some pico8 ga
 
 ![Pixel art portraits of myself and some other people.](pico8_portraits_8x8.png)
 
-*Heute hatte ich Lust, mal wieder Pixelart-Bilder zu machen. Angefangen habe ich mit einem Selbstportrait, das ich vielelicht mal irgednwo als Profilbild benutzen kann. 32x32 Pixel ist eine gute Größe, um noch ein paar Details zu erkennen, und ich war schon an die db32-Farbpalette gewöhnt, also habe ich zuerst damit angefangen.*
+*Heute hatte ich Lust, mal wieder Pixelart-Bilder zu machen. Angefangen habe ich mit einem Selbstportrait, das ich vielleicht mal irgendwo als Profilbild benutzen kann. 32x32 Pixel ist eine gute Größe, um noch ein paar Details zu erkennen, und ich war schon an die db32-Farbpalette gewöhnt, also habe ich zuerst damit angefangen.*
 
-*Danach habe ich ausprobiert, wie klein ich die Auflösung machen kann und trotzdem noch erkennbar sein, und es wurde ein Bisschen albern... petrolblaue Haare sind echt hilfreich, falls ich mal auf einem 2x2-Pixel-Bild identifiziert werden müsste... :D*
+*Danach habe ich ausprobiert, wie klein ich die Auflösung machen kann und trotzdem noch erkennbar sein, und es wurde ein Bisschen albern... Fazit: petrolblaue Haare sind echt hilfreich, falls ich mal auf einem 2x2-Pixel-Bild identifiziert werden müsste... :D*
 
-*Zuletzt habe ich noch eine andere Farbpalette ausprobiert – ich hatte kürzlich einige pico8-Spiele gesehen und war neugierig, wie ich als 8x8-Pixel-Sprite in der pico8-Farbpalette aussehen würde. Das war einfach – ich musste ja aus dem oberen 8x8-Pixel-Bild nur die Farben ändern. Und weil es so viel Spaß gemacht hat, habe ich dann noch ein paar andere Leute ebenfalls als 8x8-pico8-Bilder portraitiert.*
+*Zuletzt habe ich noch eine andere Farbpalette ausprobiert – ich hatte kürzlich einige pico8-Spiele gesehen und war neugierig, wie ich als 8x8-Pixel-Sprite in der pico8-Farbpalette aussehen würde. Das war einfach – ich musste ja aus dem oberen 8x8-Pixel-Bild nur die Farben ändern. Und weil es so viel Spaß gemacht hat, habe ich dann noch ein paar andere Leute ebenfalls als 8x8-Pixel-pico8-Bilder portraitiert.*

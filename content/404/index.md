@@ -1,15 +1,14 @@
 ---
-title: Page not found, sorry!
+title: Error 404 - Page not found
+subtitle: Kirstin Rohwer's homepage
 noindex: true
+nometa: true
 ---
 
-Please click on this <a id="google" href="http://www.google.de/search?q=site:<%= domain %>">ready-made Google query</a> or have a look at the [main page](/).
+## Oops, something went wrong here...
 
-If you don't find what you are looking for, just [ask me](/about/).
+It seems like you were looking for a page that doesn't exist. Maybe you made a typo or clicked on a broken link?
 
-<script type="text/javascript">
-url = /^.*?:\/\/.*?\/(.*)$/.exec(document.URL)[1];
-keywords = url.match(/[a-zA-Z]+/g);
-keywords = keywords.join("+");
-document.getElementById("google").href = "http://www.google.com/search?q=site:<%= domain %>+" + keywords;
-</script>
+You could look at the [main page](/) - most of my content can be found there.
+
+And if you don't find what you are looking for over there, you can always [ask me](/about/).

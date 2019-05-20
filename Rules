@@ -92,6 +92,11 @@ compile "/**/*.pdf", :rep => :thumbnail do
     write item.identifier + "-titlepage.svg-thumbnail.png"
 end
 
+#this puts the .htaccess file in the right place
+compile "/htaccess.txt" do
+    write "/.htaccess"
+end
+
 passthrough "/**/*"
 
 layout "/**/*", :slim

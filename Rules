@@ -41,7 +41,7 @@ end
 compile "/**/*.svg", :rep => :thumbnail do
     filter :thumbnailizesvg, :width => 600
 	if item.identifier =~ '/assets/**/*.svg'
-		write nil
+#		write nil
 	else
     	write item.identifier + "-thumbnail.png"
 	end
@@ -51,7 +51,7 @@ end
 compile "/**/*.{png,jpg,gif}", :rep => :thumbnail do
     filter :thumbnailize, :width => 600
 	if item.identifier =~ '/assets/**/*.{png,jpg,gif}'
-		write nil
+#		write nil
 	else
     	write item.identifier + "-thumbnail.png"
 	end

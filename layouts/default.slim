@@ -72,9 +72,10 @@ html lang=lang_for(@item)
    #content
       - unless @item[:headless]
         h1= @item[:title]
-        - if @item[:subtitle]
-            .subtitle= @item[:subtitle]
+
         - unless @item[:nometa]
+          - if @item[:subtitle]
+            .subtitle= @item[:subtitle]
           .meta
               - if @item[:published]
                 => @item[:published].strftime("%Y-%m-%d")

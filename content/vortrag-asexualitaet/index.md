@@ -2,7 +2,7 @@
 title: "Vortrag: Asexualität"
 tags: education, asexuality, relationships, talk, de, fav
 published: 2018-08-31
-updated: 2019-05-20
+updated: 2019-06-13
 ---
 
 *I first held this talk at a small german conference for people in consensual multiple relationships, and then again on other occasions. My target was to educate the listeners about asexuality, because the subject is still too widely unknown to the general public.*  

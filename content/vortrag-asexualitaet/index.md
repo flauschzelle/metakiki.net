@@ -13,7 +13,11 @@ Diesen Vortrag habe ich zum ersten Mal beim [Teach-In Einvernehmliche Mehr&shy;f
 Ich gebe in meinem Vortrag einen allgemeinen Überblick über Asexualität und die wichtigsten Begriffe, und berichte über die Erfahrungen asexueller Menschen in unserer Gesellschaft (sowohl allgemein, als auch speziell im Kontext nichtexklusiver Beziehungskonzepte). Außerdem gehe ich darauf ein, wie das *split attraction model* für alle Menschen nützlich sein kann, um die Kommunikation in Beziehungen zu verbessern.  
 Das Ziel des Vortrags ist vor allem, mehr Sichtbarkeit für Asexualität zu schaffen, weil das Thema in großen Teilen der Gesellschaft leider immer noch sehr unbekannt ist.
 
-Auf den [feministischen, queer\*emanzipatorischen Aktionstagen Gegengrau](https://queerfems.blackblogs.org/category/gegengrau-2019/) 2019 werde ich einen sehr ähnlichen Vortrag noch einmal halten, die Folien gibt es [hier](vortrag-asexualitaet-kirstin-rohwer-gegengrau-2019.pdf) zum Download:
+Eine abgewandelte Version des Vortrags (mit weniger Fokus auf nichtexklusive Beziehungskonzepte) halte ich am 20.6.2019 im Rahmen des *Zentrum Regenbogen* beim [Evangelischen Kirchentag](http://www.kirchentag.de) 2019. Die Folien dazu gibt es [hier](vortrag-asexualitaet-kirstin-rohwer-kirchentag-2019.pdf):
+
+<%= titlepage("vortrag-asexualitaet-kirstin-rohwer-kirchentag-2019", "Folien des Vortrags vom Evangelischen Kirchentag 2019") %>
+
+Auf den [feministischen, queer\*emanzipatorischen Aktionstagen Gegengrau](https://queerfems.blackblogs.org/category/gegengrau-2019/) 2019 habe ich einen sehr ähnlichen Vortrag wie beim Poly-Teach-In noch einmal gehalten, die Folien gibt es [hier](vortrag-asexualitaet-kirstin-rohwer-gegengrau-2019.pdf) zum Download:
 
 <%= titlepage("vortrag-asexualitaet-kirstin-rohwer-gegengrau-2019", "Folien des Vortrags vom Gegengrau 2019") %>
 

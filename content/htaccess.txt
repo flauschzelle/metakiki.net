@@ -1,1 +1,4 @@
 ErrorDocument 404 /404/
+
+RewriteEngine on
+Redirect 301 /vortrag-asexualität/ http://metakiki.net/vortrag-asexualitaet/

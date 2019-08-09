@@ -1,7 +1,7 @@
 ---
 title: "T-shirt: FLAUSCHIG"
 subtitle: Stamped in fluffy ink
-tags: art, de, en
+tags: craft, art, de, en
 published: 2017-12-19
 thumbnail: label.jpg
 ---

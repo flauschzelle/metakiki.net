@@ -1,6 +1,6 @@
 ---
 title: "Pride Speech Bubble"
-tags: asexuality, relationships, art, de, en
+tags: asexuality, relationships, craft, art, de, en
 published: 2018-07-29
 thumbnail: pride-speech-bubble-cutoff.jpg
 ---

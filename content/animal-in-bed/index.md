@@ -1,6 +1,6 @@
 ---
 title: "I'm an animal in bed"
-tags: asexuality, relationships, art, en
+tags: asexuality, relationships, craft, art, en
 published: 2018-07-26
 ---
 

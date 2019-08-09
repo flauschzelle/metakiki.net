@@ -1,6 +1,6 @@
 ---
 title: "Amazing Aces Logo"
-tags: education, asexuality, de, en
+tags: education, asexuality, art, de, en
 published: 2017-10-11
 thumbnail: amazing-aces-logo.png
 ---

@@ -2,7 +2,7 @@
 title: "Vortrag: Asexualität"
 tags: education, asexuality, relationships, talk, de, fav
 published: 2018-08-31
-updated: 2019-08-04
+updated: 2019-08-14
 thumbnail: cover.png
 abstract: "In meinem Vortrag, den ich schon zu mehreren Anlässen gehalten habe, gebe ich einen Überblick zum Thema Asexualität, zu den Erfahrungen asexueller Menschen und zum split attraction model."
 ---
@@ -16,7 +16,15 @@ Das Ziel des Vortrags ist vor allem, mehr Sichtbarkeit für Asexualität zu scha
 
 ## Aktuell
 
-Die vierte Ausgabe dieses Vortrags (wie immer mit leichten Abwandlungen, dem Anlass entsprechend) halte ich am 7.8.2019 im Rahmen des [Sommerlochfestival - CSD Braunschweig](https://www.csd-braunschweig.de/) 2019. Die Folien dazu könnt ihr schon jetzt [hier herunterladen](vortrag-asexualitaet-kirstin-rohwer-sommerloch-2019.pdf):
+Die vierte Ausgabe dieses Vortrags (wie immer mit leichten Abwandlungen, dem Anlass entsprechend) habe ich am 7.8.2019 im Rahmen des [Sommerlochfestival - CSD Braunschweig](https://www.csd-braunschweig.de/) 2019 gehalten. [Die Veranstaltung](http://amazing-aces-bs.de/vortrag-sommerloch-2019/) fand im queeren Zentrum [Onkel Emma](https://onkel-emma.org/) in Braunschweig statt. 
+
+Von diesem Vortrag gibt es eine Videoaufzeichnung, die ihr [hier](https://www.youtube.com/watch?v=etlFeVXdJMI) ansehen könnt (Untertitel sind noch in Arbeit):
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/etlFeVXdJMI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Der eigentliche Vortrag ist ca. eine Dreiviertelstunde lang, danach beantworte ich noch Fragen aus dem Publikum.
+
+Die Folien zum Vortrag vom Sommerlochfestival 2019 könnt ihr [hier herunterladen](vortrag-asexualitaet-kirstin-rohwer-sommerloch-2019.pdf):
 
 <%= titlepage("vortrag-asexualitaet-kirstin-rohwer-sommerloch-2019", "Folien des Vortrags vom Sommerlochfestival 2019") %>
 

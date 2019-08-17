@@ -12,8 +12,8 @@ end
 
 def youtube id, classes: nil, start: nil
 <<HERE
-<iframe #{classes ? "class=\"#{classes}\"" : ""} width="550" height="310"
-src="https://www.youtube.com/embed/#{id}?#{start ? "start=#{start}&" : ""}rel=0" frameborder="0" allowfullscreen>
+<iframe #{classes ? "class=\"#{classes}\"" : ""} width="560" height="315" 
+src="https://www.youtube-nocookie.com/embed/#{id}?#{start ? "start=#{start}&" : ""}rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 HERE
 end

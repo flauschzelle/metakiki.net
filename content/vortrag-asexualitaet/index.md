@@ -20,9 +20,9 @@ Die vierte Ausgabe dieses Vortrags (wie immer mit leichten Abwandlungen, dem Anl
 
 Von diesem Vortrag gibt es eine Videoaufzeichnung, die ihr [hier](https://www.youtube.com/watch?v=etlFeVXdJMI) ansehen könnt:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/etlFeVXdJMI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<%= youtube("etlFeVXdJMI") %>
 
-Der eigentliche Vortrag ist ca. eine Dreiviertelstunde lang, danach beantworte ich noch Fragen aus dem Publikum.
+Der eigentliche Vortrag ist ca. eine Dreiviertelstunde lang, danach beantworte ich noch Fragen aus dem Publikum. (Manche der Fragen sind nur sehr leise auf der Aufnahme, daher empfehle ich, für den Fragen-Teil die Untertitel einzuschalten.)
 
 Die Folien zum Vortrag vom Sommerlochfestival 2019 könnt ihr [hier herunterladen](vortrag-asexualitaet-kirstin-rohwer-sommerloch-2019.pdf):
 

@@ -13,6 +13,23 @@ preprocess do
         if item[:tags]
             item[:tags] = item[:tags].split(",").map{|t| t.strip}
         end
+		if item[:title]
+			dir = item.identifier.to_s.split("/")[0..-2].join("/")+"/"
+			if item[:thumbnail]
+				if item[:thumbnail][0] != "/" # Thumbnail path is relative
+					item[:thumbnail] = dir+item[:thumbnail] # make path absolute
+				end
+			else
+				thumb = @items[dir+"*thumbnail*{png,jpg,gif,svg}"] ||
+                        @items[dir+"*talk*.pdf"] ||
+                        @items[dir+"*.{png,jpg,gif,svg,pdf}"]
+				if thumb 
+					item[:thumbnail] = thumb.identifier
+				else
+					item[:thumbnail] = "/assets/images/avatar.png"
+				end
+			end
+		end
     end
 end
 
@@ -37,23 +54,21 @@ compile "/assets/images/avatar.png", :rep => :thumbnail do
     write item.identifier + "-thumbnail.png"
 end
 
-#this creates thumbnails from svg images (except those in the assets dir):
-compile "/**/*.svg", :rep => :thumbnail do
-    filter :thumbnailizesvg, :width => 600
-	if item.identifier =~ '/assets/**/*.svg'
-#		write nil
+#this creates thumbnails from all images used as thumbnails somewhere (except those in the assets dir):
+compile "/**/*.{png,jpg,gif,svg}", :rep => :thumbnail do
+	if item.identifier.ext == "svg"
+		filter :thumbnailizesvg, :width => 600
 	else
-    	write item.identifier + "-thumbnail.png"
+    	filter :thumbnailize, :width => 600
 	end
-end
-
-#this creates thumbnails from all other images (except those in the assets dir):
-compile "/**/*.{png,jpg,gif}", :rep => :thumbnail do
-    filter :thumbnailize, :width => 600
-	if item.identifier =~ '/assets/**/*.{png,jpg,gif}'
+	if item.identifier =~ '/assets/**'
 #		write nil
 	else
-    	write item.identifier + "-thumbnail.png"
+		@items.each do |i|
+			if i[:thumbnail] == item.identifier
+				write item.identifier + "-thumbnail.png"
+			end
+		end 	
 	end
 end
 

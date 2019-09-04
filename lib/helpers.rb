@@ -65,18 +65,16 @@ def abstract_for item
 end
 
 def thumbnail_for item
-    thumbnail = if item[:thumbnail]
-                    @items[item.path+item[:thumbnail]]
+	thumbnail = if item[:thumbnail]
+                    @items[item[:thumbnail]]
                 else
-                    @items[item.path+"*thumbnail*{png,jpg,gif,svg}"] ||
-                        @items[item.path+"*talk*.pdf"] ||
-                        @items[item.path+"*.{png,jpg,gif,svg,pdf}"]
-                end
+					nil
+				end
 
     if thumbnail && thumbnail.reps[:thumbnail]
         thumbnail.reps[:thumbnail].path
-    else
-        "/assets/images/avatar.png-thumbnail.png"
+	else
+		raise "error: could not find thumbnail rep of "+item.identifier.to_s
     end
 end
 

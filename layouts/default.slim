@@ -51,22 +51,23 @@ html lang=lang_for(@item)
 
   body
 
-   #sidebar 
-      #nav
-        - if @item.path != "/"
-		    a href="/"
-        	    img src="/assets/images/kleines_bild_normal.svg" alt="portrait"
-		    <br>
-        ul
-		    li
-			    -if @item.path != "/about/"
-				    a href="/about/" About
-			    -else
-				    a href="/" Home
-            li
-                a href="https://twitter.com/flauschzelle" Twitter
-            li
-                a href="https://ko-fi.com/metakiki" Ko-fi
+   - if not @item[:nomenu]
+	   #sidebar 
+		  #nav
+		    - if @item.path != "/"
+				a href="/"
+		    	    img src="/assets/images/kleines_bild_normal.svg" alt="portrait"
+				<br>
+		    ul
+				li
+					-if @item.path != "/about/"
+						a href="/about/" About
+					-else
+						a href="/" Home
+		        li
+		            a href="https://twitter.com/flauschzelle" Twitter
+		        li
+		            a href="https://ko-fi.com/metakiki" Ko-fi
 
 
    #content

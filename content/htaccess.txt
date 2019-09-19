@@ -1,4 +1,11 @@
+# set the custom error page:
+
 ErrorDocument 404 /404/
+
+# uncomment the next line to redirect the home page to the climate strike page:
+Redirect 302 /index.html http://metakiki.net/climate-strike/index.html
+
+# this should prevent some people not finding the talk due to typos:
 
 RewriteEngine on
 Redirect 301 /vortrag-asexualität/ http://metakiki.net/vortrag-asexualitaet/

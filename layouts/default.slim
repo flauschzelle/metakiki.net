@@ -105,7 +105,7 @@ html lang=lang_for(@item)
 
       == yield
 
-      - if @item[:tags]
+      - if @item[:tags] and @item[:tags].include?('en')
         hr
         h2 Comments?
         p
@@ -120,3 +120,20 @@ html lang=lang_for(@item)
 		  | or donate via 
 		  a<> href="https://www.paypal.me/metakiki" PayPal
           | to show your support :)
+
+      - if @item[:tags] and @item[:tags].include?('de') and not @item[:tags].include?('en')
+        hr
+        h2 Kommentare?
+        p
+          | Schreib mir auf Twitter an 
+          a< href="https://twitter.com/flauschzelle" @flauschzelle
+		  |, im Fediverse an 
+		  a<> href="https://chaos.social/@flauschzelle" @flauschzelle@chaos.social 
+          | oder per E-mail an <span>m<span title="ihate@spam.com</span>">a</span>il</span>&#64;metakiki<i title="</i>mailto:">.</i>net. 
+		  br
+		  br
+		  | Wenn dir das hier gefallen hat, möchtest du mir vielleicht auch einen (metaphorischen) 
+          a<> href="https://ko-fi.com/metakiki" Kaffee
+		  | spendieren, oder mich per 
+		  a<> href="https://www.paypal.me/metakiki" PayPal
+          | unterstützen :)

@@ -9,6 +9,8 @@ nometa: true
 - Twitter: [@flauschzelle](https://twitter.com/flauschzelle)
 - Mastodon: [@flauschzelle@chaos.social](https://chaos.social/@flauschzelle)
 - Signal: Please ask for my phone number! :)
+- GitHub: [flauschzelle](https://github.com/flauschzelle)
+- GitLab: [flauschzelle](https://gitlab.com/flauschzelle)
 
 Snail mail (German law requires this):
 

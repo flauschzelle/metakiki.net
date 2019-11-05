@@ -14,6 +14,16 @@ abstract: "In meinem Vortrag, den ich schon zu mehreren Anlässen gehalten habe,
 Ich gebe in meinem Vortrag einen allgemeinen Überblick über Asexualität und die wichtigsten Begriffe, und berichte über die Erfahrungen asexueller Menschen in unserer Gesellschaft. Außerdem gehe ich darauf ein, wie das *split attraction model* für alle Menschen nützlich sein kann, um die Kommunikation in Beziehungen zu verbessern.  
 Das Ziel des Vortrags ist vor allem, mehr Sichtbarkeit für Asexualität zu schaffen, weil das Thema in großen Teilen der Gesellschaft leider immer noch sehr unbekannt ist.
 
+## Vortrag oder Workshop?
+
+In meiner Aufklärungsarbeit zum Thema Asexualität sind die Grenzen zwischen *Workshop* und *Vortrag* nicht klar definiert. Manchmal wird auch etwas, was in der Planung als Vortrag konzipiert wurde, dann im Programm von den Veranstaltern als Workshop angekündigt.
+
+Der Übersichtlichkeit halber habe ich auf meiner Website aktuell zwei getrennte Bereiche dafür eingerichtet.
+
+Hier liste ich die *Vorträge* auf, die vom Konzept her eher weniger interaktive Elemente enthalten, als die Workshops auf der anderen Seite.
+
+Aber da die Grenze in Wirklichkeit eher fließend ist, empfehle ich allen Interessierten, sich auch die Seite zu meinem [Workshop](/workshop-asexualitaet/) anzuschauen.
+
 ## Aktuell
 
 Die vierte Ausgabe dieses Vortrags (wie immer mit leichten Abwandlungen, dem Anlass entsprechend) habe ich am 7.8.2019 im Rahmen des [Sommerlochfestival - CSD Braunschweig](https://www.csd-braunschweig.de/) 2019 gehalten. [Die Veranstaltung](http://amazing-aces-bs.de/vortrag-sommerloch-2019/) fand im queeren Zentrum [Onkel Emma](https://onkel-emma.org/) in Braunschweig statt. 

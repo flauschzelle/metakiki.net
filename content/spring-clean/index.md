@@ -14,7 +14,7 @@ If you (understand German and) want to learn more about game jams, you should li
 The theme of Ludum Dare 40 was "The more you have, the worse it is".  
 Everything is better with more cute cats, right? Well, unless you want to keep your floor clean...
 
-You can download the game from [the Ludum Dare website](https://ldjam.com/events/ludum-dare/40/spring-clean-do-not-cross). (Note that you have to use LÖVE version 10.2 if you want to run it on Linux or Mac!)
+You can download the game from [the Ludum Dare website](https://ldjam.com/events/ludum-dare/40/spring-clean-do-not-cross). (Note that you have to use LÖVE version <s>10.2</s> 11.3 (*updated November 2019*) if you want to run it on Linux or Mac!)
 
 [![Title screen](title.png)](https://ldjam.com/events/ludum-dare/40/spring-clean-do-not-cross)
 

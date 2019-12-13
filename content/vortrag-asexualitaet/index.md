@@ -26,17 +26,17 @@ Aber da die Grenze in Wirklichkeit eher fließend ist, empfehle ich allen Intere
 
 ## Aktuell
 
-Die vierte Ausgabe dieses Vortrags (wie immer mit leichten Abwandlungen, dem Anlass entsprechend) habe ich am 7.8.2019 im Rahmen des [Sommerlochfestival - CSD Braunschweig](https://www.csd-braunschweig.de/) 2019 gehalten. [Die Veranstaltung](http://amazing-aces-bs.de/vortrag-sommerloch-2019/) fand im queeren Zentrum [Onkel Emma](https://onkel-emma.org/) in Braunschweig statt. 
+Ich halte am 14.12.2019 um 13:30 Uhr einen Vortrag im [Jugendzentrum B58](http://juzb58.de/) Braunschweig, im Rahmen der Veranstaltung [Queer_B](http://amazing-aces-bs.de/vortrag-queer-b-2019/). Die Folien dazu könnt ihr [hier herunterladen](vortrag-asexualitaet-kirstin-rohwer-queer_b-2019.pdf):
 
-Von diesem Vortrag gibt es eine Videoaufzeichnung, die ihr [hier](https://www.youtube.com/watch?v=etlFeVXdJMI) ansehen könnt:
+<%= titlepage("vortrag-asexualitaet-kirstin-rohwer-queer_b-2019", "Folien des Vortrags vom Queer_B 2019") %>
+
+## Videoaufzeichnung
+
+Von meinem Vortrag am 7.8.2019 im queeren Zentrum [Onkel Emma](https://onkel-emma.org/) in Braunschweig gibt es eine Videoaufzeichnung, die ihr [hier](https://www.youtube.com/watch?v=etlFeVXdJMI) ansehen könnt:
 
 <%= youtube("etlFeVXdJMI") %>
 
 Der eigentliche Vortrag ist ca. eine Dreiviertelstunde lang, danach beantworte ich noch Fragen aus dem Publikum. (Manche der Fragen sind nur sehr leise auf der Aufnahme, daher empfehle ich, für den Fragen-Teil die Untertitel einzuschalten.)
-
-Die Folien zum Vortrag vom Sommerlochfestival 2019 könnt ihr [hier herunterladen](vortrag-asexualitaet-kirstin-rohwer-sommerloch-2019.pdf):
-
-<%= titlepage("vortrag-asexualitaet-kirstin-rohwer-sommerloch-2019", "Folien des Vortrags vom Sommerlochfestival 2019") %>
 
 ## Frühere Vorträge von mir zum Thema Asexualität
 
@@ -55,6 +55,12 @@ Auf den [feministischen, queer\*emanzipatorischen Aktionstagen Gegengrau](https:
 Eine abgewandelte Version des Vortrags (mit weniger Fokus auf nichtexklusive Beziehungskonzepte) habe ich am 20.6.2019 im Rahmen des *Zentrum Regenbogen* beim [Evangelischen Kirchentag](http://www.kirchentag.de) 2019 gehalten. Die Folien dazu gibt es [hier](vortrag-asexualitaet-kirstin-rohwer-kirchentag-2019.pdf):
 
 <%= titlepage("vortrag-asexualitaet-kirstin-rohwer-kirchentag-2019", "Folien des Vortrags vom Evangelischen Kirchentag 2019") %>
+
+Die vierte Ausgabe dieses Vortrags (wie immer mit leichten Abwandlungen, dem Anlass entsprechend) habe ich am 7.8.2019 im Rahmen des [Sommerlochfestival - CSD Braunschweig](https://www.csd-braunschweig.de/) 2019 gehalten. [Die Veranstaltung](http://amazing-aces-bs.de/vortrag-sommerloch-2019/) fand im queeren Zentrum [Onkel Emma](https://onkel-emma.org/) in Braunschweig statt.
+
+Die Folien zum Vortrag vom Sommerlochfestival 2019 könnt ihr [hier herunterladen](vortrag-asexualitaet-kirstin-rohwer-sommerloch-2019.pdf):
+
+<%= titlepage("vortrag-asexualitaet-kirstin-rohwer-sommerloch-2019", "Folien des Vortrags vom Sommerlochfestival 2019") %>
 
 ## Ausblick in die Zukunft - mein Vortrag bei euch?
 

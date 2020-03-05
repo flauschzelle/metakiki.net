@@ -78,6 +78,20 @@ def thumbnail_for item
     end
 end
 
+def minithumbnail_for item
+	thumbnail = if item[:thumbnail]
+                    @items[item[:thumbnail]]
+                else
+					nil
+				end
+
+    if thumbnail && thumbnail.reps[:minithumbnail]
+        thumbnail.reps[:minithumbnail].path
+	else
+		raise "error: could not find minithumbnail rep of "+item.identifier.to_s
+    end
+end
+
 def with_tag tag
     things.select do |item|
         item[:tags] and item[:tags].include? tag

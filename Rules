@@ -54,10 +54,20 @@ compile "/**/*.{png,jpg,gif,svg}", :rep => :thumbnail do
 	if @items.any?{|i| i[:thumbnail] == item.identifier}
 		if item.identifier.ext == "svg"
 			filter :thumbnailizesvg, :width => 600
-		else
-    		filter :thumbnailize, :width => 600
 		end
-		write item.identifier + "-thumbnail.png"
+		filter :thumbnailize, :width => 600
+		write item.identifier + "-thumbnail.jpg"
+	end
+end
+
+#this creates mini thumbnails from all images used as thumbnails somewhere:
+compile "/**/*.{png,jpg,gif,svg}", :rep => :minithumbnail do
+	if @items.any?{|i| i[:thumbnail] == item.identifier}
+		if item.identifier.ext == "svg"
+			filter :thumbnailizesvg, :width => 350
+		end
+    	filter :thumbnailize, :width => 350
+		write item.identifier + "-minithumbnail.jpg"
 	end
 end
 
@@ -87,7 +97,16 @@ end
 compile "/**/*.pdf", :rep => :thumbnail do
     filter :titlepageize
     filter :thumbnailizesvg, :width => 600
-    write item.identifier + "-titlepage.svg-thumbnail.png"
+    filter :thumbnailize, :width => 600
+    write item.identifier + "-titlepage.svg-thumbnail.jpg"
+end
+
+#this creates mini thumbnail png images for the pdf title pages:
+compile "/**/*.pdf", :rep => :minithumbnail do
+    filter :titlepageize
+    filter :thumbnailizesvg, :width => 350
+    filter :thumbnailize, :width => 350
+    write item.identifier + "-titlepage.svg-minithumbnail.jpg"
 end
 
 #this puts the .htaccess file in the right place

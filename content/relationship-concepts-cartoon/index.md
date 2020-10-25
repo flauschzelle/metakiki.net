@@ -14,11 +14,19 @@ So I made this little graphic with lots of examples: a kind of illustrated dicti
 
 ![](the-diversity-of-love-relationship-concepts-english.png)
 
-It got unexpectedly popular and quickly spread around various online media about polyamory, relationship anarchy etc... it has been translated into several languages (I translated it into german myself) and even been published in a [book](https://thorntreepress.com/stories-from-the-polycule/) since then.
+It got unexpectedly popular and quickly spread around various online media about polyamory, relationship anarchy etc... it has been translated into several languages (I translated it into german myself) and even been published in a [book](https://thorntreepress.com/stories-from-the-polycule/) since then. See below for more languages.
 
 You can download the [english version as a png picture here](the-diversity-of-love-relationship-concepts-english.png) and the [svg source file here](the-diversity-of-love-relationship-concepts-english.svg). You can edit it with a vector graphics program like [Inkscape](https://inkscape.org/), e.g. in case you want to make a translation. To display the text correctly, you should have installed the [Segoe Print](https://www.fontsmarket.com/font-details/segoe-print) font.
 
-...
+### Translations
+
+The graphic has already been translated into several languages. Sadly, I missed the chance to start a list when someone showed me the first one (years ago), and now I don't remember where I saw them. If you know about more translations, I would love to hear about them!
+
+* [Français (French)](https://polyamour.info/discussion/-bSe-/-Outil-Le-Spectre-des-relations-amoureuse-de-Kirstin-Rohwer-en/)
+* I think there were versions in Hebrew and Russian, but I don't remember where to find them.
+* …
+
+---
 
 *Es war einmal vor langer, langer Zeit, in einer der zahlreichen Facebook-Gruppen zum Thema Polyamorie... ich war genervt davon, dass die Leute dort immer wieder die gleichen Wörter durcheinander brachten und ich kein Nachschlagewerk zur Hand hatte, was ich dann mal eben schnell verlinken konnte.*
 

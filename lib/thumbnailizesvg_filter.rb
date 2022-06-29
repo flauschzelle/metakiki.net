@@ -3,14 +3,6 @@ class Thumbnailizesvg < Nanoc::Filter
     type       :binary
 
     def run(filename, params={})
-		system(
-			'inkscape',
-			 '-f', 
-			filename, 
-			'-e',
- 			output_filename, 
-			'-w', 
-			params[:width].to_s
-		)
+		`inkscape "#{filename}" --export-type=png -o - -w #{params[:width].to_s} > "#{output_filename}"`
     end
 end

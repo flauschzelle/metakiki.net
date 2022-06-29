@@ -13,7 +13,7 @@ filter = (term, updateBox) ->
     if term == ""
         window.history.replaceState("", "", window.originalURL)
     else
-        if window.originalURL != "https://morr.cc"
+        if window.originalURL != "https://flauschzelle.de"
             window.location.href = "/"+"#"+term
         else
             window.history.replaceState("", "", window.originalURL+"#"+term)

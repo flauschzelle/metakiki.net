@@ -13,7 +13,7 @@ data_sources:
 deploy:
   default:
     kind: rsync
-    dst: "metakiki.net:/var/www/virtual/metakiki/html"
+    dst: "metakiki@spahr.uberspace.de:/var/www/virtual/metakiki/html"
     options: [
       '--partial',
       '--progress',
@@ -21,6 +21,6 @@ deploy:
       '--times',
       '--verbose',
       '--compress',
-#      '--chmod=u=rwX,go=rX',
+      '--chmod=u=rwX,go=rX',
       '--delete-after'
     ]

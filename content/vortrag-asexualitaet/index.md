@@ -2,7 +2,7 @@
 title: "Vortrag: Asexualität"
 tags: education, asexuality, relationships, talk, de, fav
 published: 2018-08-31
-updated: 2020-04-22
+updated: 2022-06-30
 thumbnail: cover.png
 abstract: "In meinem Vortrag, den ich schon zu mehreren Anlässen gehalten habe, gebe ich einen Überblick zum Thema Asexualität, zu den Erfahrungen asexueller Menschen und zum split attraction model."
 ---
@@ -26,9 +26,9 @@ Aber da die Grenze in Wirklichkeit eher fließend ist, empfehle ich allen Intere
 
 ## Aktuell
 
-Zuletzt habe ich am 22.4.2020 einen Vortrag (aufgrund der Coronavirus-Schutzmaßnahmen diesmal [remote](https://kv.falken-bs.de/2020/04/asexualitaet-die-unsichtbare-orientierung-vortrag-von-kirstin-rohwer)) im Videochat der [Falken Braunschweig](https://kv.falken-bs.de/) gehalten. Die Folien dazu könnt ihr [hier herunterladen](vortrag-asexualitaet-kirstin-rohwer-falken-bs-2020.pdf):
+Zuletzt habe ich am 30.6.2022 einen Vortrag im Rahmen der Queeren Ringvorlesung an der Leuphana Universität Lüneburg gehalten. Die Folien dazu könnt ihr [hier herunterladen](vortrag-asexualitaet-kirstin-rohwer-queere-ringvorlesung-lueneburg-2022.pdf).
 
-<%= titlepage("vortrag-asexualitaet-kirstin-rohwer-falken-bs-2020", "Folien des Vortrags bei den Falken 2020") %>
+<%= titlepage("vortrag-asexualitaet-kirstin-rohwer-queere-ringvorlesung-lueneburg-2022", "Folien des Vortrags in Lüneburg 2022") %>
 
 ## Videoaufzeichnung
 
@@ -65,6 +65,10 @@ Die Folien zum Vortrag vom Sommerlochfestival 2019 könnt ihr [hier herunterlade
 Am 14.12.2019 um 13:30 Uhr habe ich einen Vortrag im [Jugendzentrum B58](http://juzb58.de/) Braunschweig gehalten, im Rahmen der Veranstaltung [Queer_B](http://amazing-aces-bs.de/vortrag-queer-b-2019/). Die Folien dazu könnt ihr [hier herunterladen](vortrag-asexualitaet-kirstin-rohwer-queer_b-2019.pdf):
 
 <%= titlepage("vortrag-asexualitaet-kirstin-rohwer-queer_b-2019", "Folien des Vortrags vom Queer_B 2019") %>
+
+Am 22.4.2020 habe ich den Vortrag (aufgrund der Coronavirus-Schutzmaßnahmen diesmal [remote](https://kv.falken-bs.de/2020/04/asexualitaet-die-unsichtbare-orientierung-vortrag-von-kirstin-rohwer)) im Videochat der [Falken Braunschweig](https://kv.falken-bs.de/) gehalten. Die Folien dazu könnt ihr [hier herunterladen](vortrag-asexualitaet-kirstin-rohwer-falken-bs-2020.pdf):
+
+<%= titlepage("vortrag-asexualitaet-kirstin-rohwer-falken-bs-2020", "Folien des Vortrags bei den Falken 2020") %>
 
 ## Ausblick in die Zukunft - mein Vortrag bei euch?
 

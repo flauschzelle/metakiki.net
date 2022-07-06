@@ -26,7 +26,7 @@ Aber da die Grenze in Wirklichkeit eher fließend ist, empfehle ich allen Intere
 
 ## Aktuell
 
-Zuletzt habe ich am 30.6.2022 einen Vortrag im Rahmen der Queeren Ringvorlesung an der Leuphana Universität Lüneburg gehalten. Die Folien dazu könnt ihr [hier herunterladen](vortrag-asexualitaet-kirstin-rohwer-queere-ringvorlesung-lueneburg-2022.pdf).
+Zuletzt habe ich am 30.6.2022 einen Vortrag [im Rahmen der Queeren Ringvorlesung](https://queereringvorlesung.de/2022/06/13/das-asexuelle-spektrum-basics/) an der Leuphana Universität Lüneburg gehalten. Die Folien dazu könnt ihr [hier herunterladen](vortrag-asexualitaet-kirstin-rohwer-queere-ringvorlesung-lueneburg-2022.pdf).
 
 <%= titlepage("vortrag-asexualitaet-kirstin-rohwer-queere-ringvorlesung-lueneburg-2022", "Folien des Vortrags in Lüneburg 2022") %>
 

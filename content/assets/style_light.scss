@@ -1,0 +1,91 @@
+$offblack: #3a4145;
+$grey: #222;
+
+a {
+    color: #0080a8;
+}
+
+a:hover {
+    color: $grey;
+}
+
+body {
+    color: $offblack;
+	background: white;
+}
+
+
+#nav {
+    color: $grey;
+    li {
+        a {
+            color: inherit;
+        }
+        a:hover {
+            background: #eee;
+        }
+    }
+    li.current a {
+        color: white;
+        background: $grey;
+    }
+}
+
+#content {
+
+    h1, h2, h3, h4 {
+        color: $grey;
+    }
+    a.titlepage {
+        box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.4);
+        background: white;
+    }
+    a.titlepage:hover {
+        box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.8);
+    }
+    h1 {
+        a {
+            color: inherit;
+        }
+    }
+    .meta {
+        color: #9eabb3;
+        a {
+            color: inherit;
+        }
+        a:hover {
+            color: $offblack;
+        }
+    }
+    #search {
+      #morr-search {
+          background: white;
+          color: $offblack;
+          border-color: $offblack;
+          border-style: solid;
+          border-width: thin;
+      }
+    }
+    .box:hover {
+        box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.8);
+    }
+    .box {
+        box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.4);
+        .info {
+            box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.4);
+            background: white;
+            h2 {
+                color: $offblack;
+            }
+            h3 {
+                color: #9eabb3;
+            }
+            .meta {
+                color: $offblack;
+            }
+        }
+    }
+    .spoiler {
+        background: $offblack;
+    }
+}

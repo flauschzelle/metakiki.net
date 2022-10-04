@@ -18,7 +18,9 @@ You can find download links and instructions for *Alarm Clock Arcade* on [the Lu
 
 ## Development
 
-This game jam's theme immediately spawned a lot of ideas in my head - so may potential for different interpretations of the word "seconds"! But after thinking about getting seconds from the bruch buffet for ten times, finding ten people with the same name as one of their ancestors, visiting locations that are 10" apart in geo coordinates, musical intervals, and many more for a while, we settled for a more obvious understanding. One of the things that happen at a regular ten-second time interval, is - of course - the ten seconds digit on a clock switching to the next one.
+This game jam's theme immediately spawned a lot of ideas in my head - so much potential for different interpretations of the word "seconds"! But after thinking about getting seconds from the brunch buffet for ten times, finding ten people with the same name as one of their ancestors, visiting locations that are 10" apart in geo coordinates, musical intervals, and many more for a while, we settled for a more obvious understanding. 
+
+One of the things that happen at a regular ten-second time interval, is - of course - the ten seconds digit on a clock switching to the next one.
 
 We experimented with different types of game mechanics that could have interesting interactions with the changing digit - and after building a prototype inspired by one of the arcade game classics, we found it to be fun and stuck with it.
 

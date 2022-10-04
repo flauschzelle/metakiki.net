@@ -1,6 +1,6 @@
 ---
 title: Shepherd's Island
-subtitle: A puzzle game with sheep, boats and rising tides.
+subtitle: A puzzle game with sheep, boats and rising tides
 tags: game, en, fav
 published: 2022-04-05
 thumbnail: cover.jpg

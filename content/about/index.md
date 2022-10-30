@@ -6,11 +6,11 @@ nometa: true
 ## Contact
 
 - Email: <span>m<span title="ihate@spam.com</span>">a</span>il</span>&#64;metakiki<i title="</i>mailto:">.</i>net
-- Twitter: [@flauschzelle](https://twitter.com/flauschzelle)
-- Mastodon: [@flauschzelle@chaos.social](https://chaos.social/@flauschzelle)
+- Fediverse (Mastodon): [@flauschzelle@chaos.social](https://chaos.social/@flauschzelle)
 - Signal: Please ask for my phone number! :)
 - GitHub: [flauschzelle](https://github.com/flauschzelle)
 - GitLab: [flauschzelle](https://gitlab.com/flauschzelle)
+- Twitter: [@flauschzelle](https://twitter.com/flauschzelle)
 
 Snail mail (German law requires this):
 
@@ -21,11 +21,11 @@ Snail mail (German law requires this):
 
 ## Data protection
 
-I don't collect any of your data on this website (EU law requires that I let you know about this).
+I don't collect any of your data on this website (EU law maybe requires that I let you know about this).
 
 ## Colophon
 
-The contents of this site are written in [Markdown](http://daringfireball.net/projects/markdown/) and compiled to HTML5 by [nanoc](http://nanoc.ws). I was inspired to do it that way by [blinry's website](https://morr.cc) and you can [read more about it over there](https://morr.cc/how-to-blog-with-nanoc/).
+The contents of this site are written in [Markdown](http://daringfireball.net/projects/markdown/) and compiled to HTML5 by [nanoc](http://nanoc.ws). I was inspired to do it that way by [blinry's website](https://blinry.org) and you can [read more about it over there](https://blinry.org/how-to-blog-with-nanoc/).
 
 The fonts are [Noticia Text](https://fonts.google.com/specimen/Noticia+Text), [<span style="font-family: OpenSans"><b>Open Sans</b></span>](https://fonts.google.com/specimen/Open+Sans) and [`Ubuntu Mono`](https://fonts.google.com/specimen/Ubuntu+Mono).
 

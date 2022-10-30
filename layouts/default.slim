@@ -50,6 +50,8 @@ html lang=lang_for(@item)
     link rel="alternate stylesheet" href="/assets/style_dark.css" type="text/css" title="dark"
     link rel="alternate stylesheet" href="/assets/style_light.css" type="text/css" title="light"
 
+    link rel="me" href="https://chaos.social/@flauschzelle"
+
     - if @item.path == "/"
       script src="https://code.jquery.com/jquery-3.1.1.min.js"
       script src="/assets/filter.js"
@@ -70,7 +72,7 @@ html lang=lang_for(@item)
 					-else
 						a href="/" Home
 		        li
-		            a href="https://twitter.com/flauschzelle" Twitter
+		            a href="https://chaos.social/@flauschzelle" Mastodon
 		        li
 		            a href="https://ko-fi.com/metakiki" Ko-fi
 		        li
@@ -114,9 +116,7 @@ html lang=lang_for(@item)
         hr
         h2 Comments?
         p
-          | Tweet to
-          a< href="https://twitter.com/flauschzelle" @flauschzelle
-		  |, toot to 
+		  | Toot to 
 		  a<> href="https://chaos.social/@flauschzelle" @flauschzelle@chaos.social 
           | or e-mail me at <span>m<span title="ihate@spam.com</span>">a</span>il</span>&#64;metakiki<i title="</i>mailto:">.</i>net. 
 		  br
@@ -130,9 +130,7 @@ html lang=lang_for(@item)
         hr
         h2 Kommentare?
         p
-          | Schreib mir auf Twitter an 
-          a< href="https://twitter.com/flauschzelle" @flauschzelle
-		  |, im Fediverse an 
+          | Schreib mir im Fediverse an 
 		  a<> href="https://chaos.social/@flauschzelle" @flauschzelle@chaos.social 
           | oder per E-mail an <span>m<span title="ihate@spam.com</span>">a</span>il</span>&#64;metakiki<i title="</i>mailto:">.</i>net. 
 		  br

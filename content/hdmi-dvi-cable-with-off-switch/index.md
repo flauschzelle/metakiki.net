@@ -3,7 +3,8 @@ title: "On/Off switch for HDMI/DVI cable"
 subtitle: Disconnect a monitor without unplugging
 tags: electronics, hardware, en
 published: 2022-04-25
-thumbnail: mvp.jpg
+updated: 2022-11-15
+thumbnail: switch_case_assembled.jpg
 ---
 
 This electronics project is probably not needed very often, but in case anyone has a similarly unusual hardware setup and a similar problem, I might as well document what I did to solve it...
@@ -87,6 +88,7 @@ The black and red wires didn't seem to be connected to any of the pins. Strange,
 We soldered some extra pieces of wire to all the ends we had just cut and tested the connections by sticking them into a breadboard.
 
 ![Testing the connections on a breadboard](breadboard.jpg)
+
 ![Testing the connections on a breadboard](breadboard2.jpg)
 
 After we had experimentally confirmed that disconnecting gray and white at the same time was the thing we need, we soldered all the other ones back together, isolating them with shrink tube and tape.
@@ -103,5 +105,25 @@ Then we dug up a 2-pole switch from a basket of old computer parts in the baseme
 
 ![The modified cable with four wires stuck into a breadboard, connecting to a large switch that is standing next to the breadboard.](mvp.jpg)
 
-Now I have a monitor cable that can be virtually unplugged without actually pulling out any plugs.
+Now I have a monitor cable that can be virtually unplugged without actually pulling out any plugs!
+
+## A smaller switch and a plastic case
+
+*Update (November 2022):*
+
+I found a small 2-pole slide switch, removed some of the excess wire I had used for the other one, and soldered the small switch to the white and gray wires.
+
+![The modified cable with a small slide switch sitting on top of it.](small_switch_1.jpg)
+
+![The modified cable with a small slide switch sitting on top of it, seen from below to show the wires soldered to four pins of the switch.](small_switch_2.jpg)
+
+Then I modelled and 3D-printed a case for it.
+
+![Three parts for the case, made from black plastic.](case_parts.jpg)
+
+![The switch case on the cable, sitting on the foot of a monitor next to the ThinkPad dock. It is a cylindrical shape with conical ends and a flattened side looking upwards, about 8 cm long and 3 cm wide. The words 'ON' and 'OFF' are written in white paint above/below the white handle of a small slider switch embedded in the visible flattened side.](switch_case_assembled.jpg)
+
+I screwed it shut, filled in the 'ON' and 'OFF' text with some white acrylic paint, and now it lives next to the dock, beside the general chaos of *I have too many cables on my desk...*
+
+![Parts of my desk setup, with corners of three screens visible and the ThinkPad Dock in the center. To the left of the dock, there are a lot of cables arranged in a messy way. To the right of the dock, the newly built switch case is sitting on the foot of one of the external screens, among a few more cables.](switch_case_on_desk.jpg)
 

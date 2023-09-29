@@ -5,12 +5,12 @@ nometa: true
 
 ## Contact
 
-- Email: <span>m<span title="ihate@spam.com</span>">a</span>il</span>&#64;metakiki<i title="</i>mailto:">.</i>net
+- Email: <span>m<span title="ihate@spam.com</span>">a</span>il</span>&#64;flauschzelle<i title="</i>mailto:">.</i>de
 - Fediverse (Mastodon): [@flauschzelle@chaos.social](https://chaos.social/@flauschzelle)
 - Signal: Please ask for my phone number! :)
 - GitHub: [flauschzelle](https://github.com/flauschzelle)
 - GitLab: [flauschzelle](https://gitlab.com/flauschzelle)
-- Twitter: [@flauschzelle](https://twitter.com/flauschzelle)
+- Codeberg: [flauschzelle](https://codeberg.org/flauschzelle)
 
 Snail mail (German law requires this):
 

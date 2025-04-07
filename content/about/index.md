@@ -15,9 +15,9 @@ nometa: true
 Snail mail (German law requires this):
 
 > Kirstin Rohwer  
-> Chemnitzstr. 7  
-> 38118 Braunschweig  
-> Germany
+> Henny-Uhlmann-Weg 9  
+> 48161 Münster  
+> Germany  
 
 ## Data protection
 

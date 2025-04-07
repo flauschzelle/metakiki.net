@@ -5,6 +5,9 @@ ErrorDocument 404 /404/
 # uncomment the next line to redirect the home page to the climate strike page:
 # Redirect 302 /index.html http://metakiki.net/climate-strike/index.html
 
+# redirect this until I have written a page for it:
+Redirect 302 /airbib https://codeberg.org/flauschzelle/AirBib
+
 # this should prevent some people not finding the talks due to typos:
 
 RewriteEngine on
